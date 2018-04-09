@@ -1,0 +1,146 @@
+body {
+  margin: 0px; 
+
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid #aaaaaa;
+  height: 80px;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+@media screen and (min-width: 500px)  {
+
+  .header__buttons {
+    display: none;
+  }
+  .header{
+    display: none;
+  }
+  .image__logo{
+    width: 300px;
+  }
+  .main__container {
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Century Gothic',sans-serif;
+  padding: 0px 200px  0px 200px ;
+}
+  .second__cotainer{
+    flex-direction: column;
+  }
+}
+
+.header__image {
+  display: flex;
+  height: 80px;
+}
+
+.image__logo {
+  width: 300px;
+
+}
+.header__buttons {
+  font-family: 'Georgia', 'Palatino',sans-serif;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin-right: 100px;
+  color: #aaaaaa;
+}
+
+.main__container {
+  flex-direction: row;
+  font-family: 'Gill Sans', 'Century Gothic',sans-serif;
+  padding: 0px 200px  0px 200px ;
+}
+
+
+h1,
+h2 {
+  letter-spacing: 10px;
+}
+
+h1{
+  font-size: 70px;
+}
+.second__container {
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+.image__sizing {
+  height: 350px;
+  width: 600px;
+}
+
+.third__container{
+  flex-direction: row;
+  margin-left:  20px;
+
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333333;
+  height: 200px;
+  margin-top: 100px;
+  color: white;
+  font-family: 'Gill Sans', 'Century Gothic', serif;
+}
+
+.footer__lightGrey {
+  display: flex;
+  justify-content: space-around;
+  background-color: #aaaaaa;
+  height: 100px;
+  font-family: 'Gill Sans', 'Century Gothic', serif;
+
+}
+
+.sign {
+  border-color: #fecd2f;
+  background-color: #fecd2f;
+}
+.underline {
+  text-decoration: underline #fecd2f;
+}
+   
+.middle_button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  background-color: #fecd2f;
+  border-color:  #333333;
+  border-width: 2px;
+  width: 800px;
+  margin-left: ;
+  height: 40px;
+  font-size: 15px;
+
+}
+
+.video__container{
+  margin-top: 50px;
+}
+.social__media {
+  display: flex;
+  flex-direction: row;
+ }
+
+.footer__container__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
